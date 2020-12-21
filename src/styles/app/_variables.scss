@@ -3,12 +3,15 @@
 
 // colors
 $light: #fff !default;
-$gray-100: #a9a9a9 !default;
+$gray-100: #e5e5e5 !default;
 $gray-200: #c4c4c4 !default;
+$gray-300: #bdbdbd !default;
+$gray-400: #e5e5e5 !default;
+$gray-500: #a9a9a9 !default;
 $gray-900: #4e5150 !default;
 
 $body-bg: $light !default;
-$content-color: $gray-100 !default;
+$content-color: $gray-500 !default;
 $headings-color: $gray-900 !default;
 
 // fonts

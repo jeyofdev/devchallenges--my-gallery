@@ -1,9 +1,13 @@
 /* ========================
-    PROFILE
+    PROFILE HEADER
 ======================== */
+header .profile {
+  margin: 0 auto;
+}
+
 header .profile .profile-header {
   max-width: rem(150);
-  padding: rem(12) rem(20) 0 rem(20);
+  padding: rem(19) rem(30) 0 rem(30);
   margin: 0 auto;
 }
 
@@ -18,7 +22,6 @@ header .profile .profile-header > h1 {
   font-weight: 600;
   font-size: rem(14);
   line-height: rem(17);
-  text-align: center;
   color: $headings-color;
   margin-top: rem(10);
   margin-bottom: rem(5);
@@ -27,5 +30,37 @@ header .profile .profile-header > h1 {
 header .profile .profile-header > p {
   @extend %content;
 
-  text-align: center;
+  font-size: rem(10);
+  line-height: rem(12);
+}
+
+/* ========================
+    PROFILE STATS
+======================== */
+.profile .profile-footer {
+  @include make-flex(center);
+
+  margin-top: rem(12);
+  margin-bottom: rem(39);
+}
+
+.profile .profile-footer .stat {
+  background: $gray-400;
+  border-radius: rem(12);
+  padding: rem(10) rem(15);
+  margin: 0 rem(7.5);
+}
+
+.profile .profile-footer p {
+  @extend %content;
+
+  font-weight: 600;
+  color: $gray-900;
+}
+
+.profile .profile-footer .stat-type {
+  @extend %content;
+
+  color: $gray-300;
+  margin-top: rem(3);
 }

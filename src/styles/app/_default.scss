@@ -2,6 +2,7 @@
 
 .container {
   padding-top: rem(30);
+  overflow: hidden;
 }
 
 .img-fluid {
@@ -13,7 +14,8 @@
   font-family: $font-family-text;
   font-style: normal;
   font-weight: 500;
-  font-size: rem(10);
-  line-height: rem(12);
+  font-size: rem(12);
+  line-height: rem(15);
   color: $content-color;
+  text-align: center;
 }
