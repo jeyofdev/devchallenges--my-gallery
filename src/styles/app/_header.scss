@@ -1,0 +1,31 @@
+/* ========================
+    PROFILE
+======================== */
+header .profile .profile-header {
+  max-width: rem(150);
+  padding: rem(12) rem(20) 0 rem(20);
+  margin: 0 auto;
+}
+
+header .profile .profile-header > img {
+  background: $gray-200;
+  border-radius: rem(16);
+}
+
+header .profile .profile-header > h1 {
+  @extend %content;
+
+  font-weight: 600;
+  font-size: rem(14);
+  line-height: rem(17);
+  text-align: center;
+  color: $headings-color;
+  margin-top: rem(10);
+  margin-bottom: rem(5);
+}
+
+header .profile .profile-header > p {
+  @extend %content;
+
+  text-align: center;
+}
