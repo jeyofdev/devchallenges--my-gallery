@@ -1,0 +1,15 @@
+/* ========================
+    FOOTER
+======================== */
+footer {
+  width: 100%;
+}
+
+footer p {
+  @extend %content;
+
+  font-weight: 500;
+  font-size: rem(14);
+  line-height: rem(17);
+  margin: rem(20) 0;
+}
