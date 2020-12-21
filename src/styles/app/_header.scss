@@ -7,8 +7,13 @@ header .profile {
 
 header .profile .profile-header {
   max-width: rem(150);
-  padding: rem(19) rem(30) 0 rem(30);
+  padding: 0 rem(20);
   margin: 0 auto;
+
+  @include media-queries-up('md') {
+    max-width: rem(250);
+    padding: 0 rem(30);
+  }
 }
 
 header .profile .profile-header > img {
@@ -25,6 +30,11 @@ header .profile .profile-header > h1 {
   color: $headings-color;
   margin-top: rem(10);
   margin-bottom: rem(5);
+
+  @include media-queries-up('md') {
+    font-size: rem(24);
+    line-height: rem(29);
+  }
 }
 
 header .profile .profile-header > p {
@@ -32,6 +42,11 @@ header .profile .profile-header > p {
 
   font-size: rem(10);
   line-height: rem(12);
+
+  @include media-queries-up('md') {
+    font-size: rem(14);
+    line-height: rem(17);
+  }
 }
 
 /* ========================
@@ -42,6 +57,11 @@ header .profile .profile-header > p {
 
   margin-top: rem(12);
   margin-bottom: rem(39);
+
+  @include media-queries-up('md') {
+    margin-top: rem(24);
+    margin-bottom: rem(64);
+  }
 }
 
 .profile .profile-footer .stat {
@@ -56,6 +76,11 @@ header .profile .profile-header > p {
 
   font-weight: 600;
   color: $gray-900;
+
+  @include media-queries-up('md') {
+    font-size: rem(18);
+    line-height: rem(22);
+  }
 }
 
 .profile .profile-footer .stat-type {

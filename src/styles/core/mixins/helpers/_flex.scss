@@ -1,10 +1,15 @@
 /// set the flex properties
 ///
 /// @param $justify-content
-@mixin make-flex($justify-content: null) {
+/// @param $flex-direction
+@mixin make-flex($justify-content: null, $flex-direction: null) {
   display: flex;
 
   @if ($justify-content != null) {
     justify-content: $justify-content;
+  }
+
+  @if ($flex-direction != null) {
+    flex-direction: $flex-direction;
   }
 }

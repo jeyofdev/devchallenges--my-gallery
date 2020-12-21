@@ -5,11 +5,17 @@
   @include make-css-grid(
     repeat(3, auto),
     repeat(3, 1fr),
-    rem(20),
+    rem(15),
     'work-1 work-2 work-2' 'work-3 work-3 work-4' 'work-5 work-6 work-4'
   );
 
   width: 100%;
+  margin-bottom: rem(40);
+
+  @include media-queries-up('md') {
+    gap: rem(20);
+    margin-bottom: rem(100);
+  }
 }
 
 .works img {
