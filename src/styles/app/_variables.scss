@@ -1,0 +1,50 @@
+// variables
+//
+
+// colors
+$light: #fff !default;
+$gray-100: #e5e5e5 !default;
+$gray-200: #c4c4c4 !default;
+$gray-300: #bdbdbd !default;
+$gray-400: #e5e5e5 !default;
+$gray-500: #a9a9a9 !default;
+$gray-900: #4e5150 !default;
+
+$body-bg: $light !default;
+$content-color: $gray-500 !default;
+$headings-color: $gray-900 !default;
+$img-bg: $gray-200 !default;
+
+// fonts
+$font-family-text: 'Montserrat', sans-serif !default;
+
+// breakpoints
+//
+$containerbreakpoints: () !default;
+$containerbreakpoints: map-merge(
+  (
+    'xs': 0,
+    'sm': 576px,
+    'md': 768px,
+    'lg': 992px,
+  ),
+  $containerbreakpoints
+);
+
+// containers
+//
+// width of the container padding
+//
+$container-gutter-width: 30px !default;
+
+// widths for each breakpoints
+//
+$containerWidths: () !default;
+$containerWidths: map-merge(
+  (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+  ),
+  $containerWidths
+);

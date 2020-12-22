@@ -1,0 +1,91 @@
+/* ========================
+    PROFILE HEADER
+======================== */
+header .profile {
+  margin: 0 auto;
+}
+
+header .profile .profile-header {
+  max-width: rem(150);
+  padding: 0 rem(20);
+  margin: 0 auto;
+
+  @include media-queries-up('md') {
+    max-width: rem(250);
+    padding: 0 rem(30);
+  }
+}
+
+header .profile .profile-header > img {
+  background: $img-bg;
+  border-radius: rem(16);
+}
+
+header .profile .profile-header > h1 {
+  @extend %content;
+
+  font-weight: 600;
+  font-size: rem(14);
+  line-height: rem(17);
+  color: $headings-color;
+  margin-top: rem(10);
+  margin-bottom: rem(5);
+
+  @include media-queries-up('md') {
+    font-size: rem(24);
+    line-height: rem(29);
+  }
+}
+
+header .profile .profile-header > p {
+  @extend %content;
+
+  font-size: rem(10);
+  line-height: rem(12);
+
+  @include media-queries-up('md') {
+    font-size: rem(14);
+    line-height: rem(17);
+  }
+}
+
+/* ========================
+    PROFILE STATS
+======================== */
+.profile .profile-footer {
+  @include make-flex(center);
+
+  margin-top: rem(12);
+  margin-bottom: rem(39);
+
+  @include media-queries-up('md') {
+    margin-top: rem(24);
+    margin-bottom: rem(64);
+  }
+}
+
+.profile .profile-footer .stat {
+  background: $gray-400;
+  border-radius: rem(12);
+  padding: rem(10) rem(15);
+  margin: 0 rem(7.5);
+}
+
+.profile .profile-footer p {
+  @extend %content;
+
+  font-weight: 600;
+  color: $gray-900;
+
+  @include media-queries-up('md') {
+    font-size: rem(18);
+    line-height: rem(22);
+  }
+}
+
+.profile .profile-footer .stat-type {
+  @extend %content;
+
+  color: $gray-300;
+  margin-top: rem(3);
+}
