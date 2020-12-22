@@ -1,81 +1,73 @@
-# Webpack boilerplate 2021
+<h1 align="center">My Gallery</h1>
 
-My boilerplate with Webpack based setup that allow build web apps and sites much faster.
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
+<div align="center">
+  <h3>
+    <a href="https://jeyofdev.github.io/devchallenges--my-gallery/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/jeyofdev/devchallenges--my-gallery">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-## Tools
+<!-- TABLE OF CONTENTS -->
 
-Check that [`Nodejs`](https://nodejs.org/en/download/) is installed :
-```sh
-$ node -v
+## Table of Contents
+
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [Contact](#contact)
+
+<!-- OVERVIEW -->
+
+## Overview
+
+![screenshot](https://user-images.githubusercontent.com/46073105/102869590-1f5f5500-443c-11eb-9f14-b206cc02f599.png)
+
+Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+
+- Where can I see your demo?
+- What was your experience?
+- What have you learned/improved?
+- Your wisdom? :)
+
+### Built With
+
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [WEBPACK](https://webpack.js.org/)
+
+#### Don't forget to generate the assets :
+
+in dev mode:
+```bash
+yarn start
 ```
-
-Check that [`Yarn`](https://yarnpkg.com/en/docs/install) is installed :
-```sh
-$ yarn -v
-```
-
-
-## Initialize a project
-
-Clone the depot and install all the dependencies :
-```sh
-$ yarn install
-```
-
-
-## Usage
-
-### Dev mode :
-You can view the dev server at localhost:3000.
-```sh
-$ yarn start
-```
-
-### Production mode :
-```sh
-$ yarn build
+In production mode:
+```bash
+yarn build
 ```
 
 
 ## Features
 
-- [webpack](https://webpack.js.org/)
-- [Babel](https://babeljs.io/)
-- [Sass](https://sass-lang.com/)
-- [PostCSS](https://postcss.org/)
-- [StyleLint](https://stylelint.io/)
-- [EsLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the given user stories.
 
+## Contact
 
-## Dependencies
-
-### webpack
-
-- [`webpack`](https://github.com/webpack/webpack) - Module and asset bundler.
-- [`webpack-cli`](https://github.com/webpack/webpack-cli) - Command line interface for webpack
-- [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server) - Development server for webpack
-- [`webpack-merge`](https://github.com/survivejs/webpack-merge) - Simplify configuration
-
-### Babel
-
-- [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+
-- [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) - Use properties directly on a class
-- [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env) - Smart defaults for Babel
-
-### Loaders
-
-- [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject Css into the DOM
-- [`sass-loader`](https://webpack.js.org/loaders/sass-loader/) - compile Scss to Css
-- [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve css imports
-- [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) - Process Css with PostCSS
-- [`babel-loader`](https://webpack.js.org/loaders/babel-loader/) - Transpile files with Babel and webpack
-
-### Plugins
-
-- [`clean-webpack-plugin`](https://github.com/johnagan/clean-webpack-plugin) - Remove/clean build folders
-- [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
-- [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin) - Generate Html files from template
-- [`image-minimizer-webpack-plugin`](https://github.com/webpack-contrib/image-minimizer-webpack-plugin) - Optimize the images.
+- GitHub [jeyofdev](https://github.com/jeyofdev)
